@@ -1,0 +1,12 @@
+{
+  "name": "type-momentum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kth9192/type-momentum.git",
+  "author": "kth",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.25.0",
+    "typescript": "^3.7.5"
+  }
+}

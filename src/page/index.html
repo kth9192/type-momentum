@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="../../public/style.scss" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+      integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+      crossorigin="anonymous"
+    />
+    <title>모멘텀</title>
+  </head>
+  <body>
+    <div class="center">
+      <div class="clock">
+        <h1>00:00:00</h1>
+        <hr class="intro-divider" />
+      </div>
+
+      <form class="toDo-Form">
+        <input
+          type="text"
+          class="form-text fas fa-tasks"
+          placeholder="&#xf0ae; Write a to do"
+        />
+      </form>
+
+      <ul class="toDo-List"></ul>
+    </div>
+
+    <span class="js-weather"></span>
+  </body>
+  <script src="../ts/index.ts"></script>
+</html>
