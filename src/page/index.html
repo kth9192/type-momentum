@@ -14,24 +14,33 @@
     <title>모멘텀</title>
   </head>
   <body>
-    <div class="center">
-      <div class="clock">
-        <h1>00:00:00</h1>
-        <hr class="intro-divider" />
+    <div class="root">
+      <div class="center">
+        <div class="clock">
+          <h1>00:00:00</h1>
+          <hr class="intro-divider" />
+        </div>
+
+        <div class="todo__form_cover">
+          <form class="todo__Form">
+            <input
+              type="text"
+              class="todo__form_input fas fa-tasks"
+              placeholder="&#xf0ae; Write a to do"
+            />
+          </form>
+          <button class="todo__submit delete">추가</button>
+        </div>
+        <ul class="todo__List"></ul>
       </div>
 
-      <form class="toDo-Form">
-        <input
-          type="text"
-          class="form-text fas fa-tasks"
-          placeholder="&#xf0ae; Write a to do"
-        />
-      </form>
-
-      <ul class="toDo-List"></ul>
+      <span class="js-weather"></span>
     </div>
-
-    <span class="js-weather"></span>
   </body>
-  <script src="../ts/index.ts"></script>
+
+  <script src="../ts/model/todoModel.ts"></script>
+  <script src="../ts/controller/controller.ts"></script>
+  <script src="../ts/app.ts"></script>
+
+  <script src="../ts/clock.ts"></script>
 </html>
