@@ -6,12 +6,13 @@
   "repository": "https://github.com/kth9192/type-momentum.git",
   "author": "kth919 <kth9193@gmail.com>",
   "license": "MIT",
+  "homepage": "https://github.com/kth9192/type-momentum",
   "private": true,
   "dependencies": {},
   "scripts": {
     "start": "node ./src/server/server.js",
     "build": "webpack --config ./webpack.config.js",
-    "deploy": "yarn build && gh-pages -d build"
+    "deploy": "yarn build && gh-pages -d dist"
   },
   "devDependencies": {
     "@babel/core": "^7.8.4",
