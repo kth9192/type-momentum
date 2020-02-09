@@ -1,4 +1,6 @@
 const path = require("path");
+const HtmlWebPackPlugin = require("html-webpack-plugin");
+
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const ROOT = "./src";
 
@@ -44,6 +46,15 @@ module.exports = {
             }
           }
         ]
+      },
+      {
+        test: /\.html$/,
+        use: [
+          {
+            loader: "html-loader",
+            options: { minimize: true }
+          }
+        ]
       }
     ]
   },
@@ -54,6 +65,10 @@ module.exports = {
     new MiniCssExtractPlugin({
       filename: "[name].css",
       chunkFilename: "[id].css"
+    }),
+    new HtmlWebPackPlugin({
+      template: "./public/index.html", // public/index.html 파일을 읽는다.
+      filename: "index.html" // output으로 출력할 파일은 index.html 이다.
     })
   ],
   devServer: {
