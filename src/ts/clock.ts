@@ -1,23 +1,26 @@
-const clockContainer = document.querySelector(".clock") as HTMLElement,
-  clockTitle = clockContainer.querySelector("h1") as HTMLElement;
+class Clock {
+  private clockContainer = <HTMLElement>document.querySelector(".clock");
+  private clockTitle = <HTMLElement>this.clockContainer.querySelector("h1");
+  constructor() {}
 
-function getTime() {
-  const date = new Date();
-  const hour = date.getHours();
-  const minute = date.getMinutes();
-  const second = date.getSeconds();
+  getTime = () => {
+    const date = new Date();
+    const hour = date.getHours();
+    const minute = date.getMinutes();
+    const second = date.getSeconds();
 
-  clockTitle.innerText = `${hour >= 10 ? `${hour}` : `0${hour}`}:${
-    minute >= 10 ? `${minute}` : `0${minute}`
-  }:${second >= 10 ? `${second}` : `0${second}`}`;
+    this.clockTitle.innerText = `${hour >= 10 ? `${hour}` : `0${hour}`}:${
+      minute >= 10 ? `${minute}` : `0${minute}`
+    }:${second >= 10 ? `${second}` : `0${second}`}`;
+  };
+
+  init = () => {
+    this.getTime();
+
+    setInterval(() => {
+      this.getTime();
+    }, 1000);
+  };
 }
 
-function init() {
-  getTime();
-
-  setInterval(() => {
-    getTime();
-  }, 1000);
-}
-
-init();
+export default Clock;

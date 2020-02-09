@@ -1,5 +1,5 @@
 import { todoJSON } from "./../../interface/interface";
-import View from "../view/view";
+import View from "../view/todoView";
 import TodoModel from "../model/todoModel";
 
 class Controller {

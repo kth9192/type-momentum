@@ -1,0 +1,21 @@
+{
+  "name": "type-momentum",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/kth9192/type-momentum.git",
+  "author": "kth",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel watch ./src/index.html",
+    "prod": "parcel build ./src/index.html"
+  },
+  "devDependencies": {
+    "cssnano": "^4.1.10",
+    "sass": "^1.25.0",
+    "typescript": "^3.7.5"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "replace-in-file": "^5.0.2"
+  }
+}
