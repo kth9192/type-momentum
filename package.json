@@ -2,7 +2,7 @@
   "name": "type-momentum",
   "version": "1.0.0",
   "description": "momentum clone with typescript",
-  "main": "./src/index.html",
+  "main": "./public/index.html",
   "repository": "https://github.com/kth9192/type-momentum.git",
   "author": "kth919 <kth9193@gmail.com>",
   "license": "MIT",
