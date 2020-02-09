@@ -1,7 +1,7 @@
 node_modules
 .cache
 .vscode
-dist
+
 .env
 config.ts
 hide
