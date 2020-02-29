@@ -97,7 +97,7 @@
 var ___CSS_LOADER_API_IMPORT___ = __webpack_require__(/*! ../../../node_modules/css-loader/dist/runtime/api.js */ "./node_modules/css-loader/dist/runtime/api.js");
 exports = ___CSS_LOADER_API_IMPORT___(false);
 // Module
-exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n.center {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  position: absolute;\n  flex-direction: column;\n  top: 50%;\n  left: 50%;\n  transform: translate(-50%, -50%); }\n\n.clock {\n  font-size: 4vw;\n  text-align: center; }\n\n.todo__form_cover {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.bgImg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: -1;\n  animation: fadeIn 0.5s linear; }\n", ""]);
+exports.push([module.i, "html, body, div, span, applet, object, iframe,\nh1, h2, h3, h4, h5, h6, p, blockquote, pre,\na, abbr, acronym, address, big, cite, code,\ndel, dfn, em, img, ins, kbd, q, s, samp,\nsmall, strike, strong, sub, sup, tt, var,\nb, u, i, center,\ndl, dt, dd, ol, ul, li,\nfieldset, form, label, legend,\ntable, caption, tbody, tfoot, thead, tr, th, td,\narticle, aside, canvas, details, embed,\nfigure, figcaption, footer, header, hgroup,\nmenu, nav, output, ruby, section, summary,\ntime, mark, audio, video {\n  margin: 0;\n  padding: 0;\n  border: 0;\n  font-size: 100%;\n  font: inherit;\n  vertical-align: baseline; }\n\narticle, aside, details, figcaption, figure,\nfooter, header, hgroup, menu, nav, section {\n  display: block; }\n\nbody {\n  line-height: 1; }\n\nol, ul {\n  list-style: none; }\n\nblockquote, q {\n  quotes: none; }\n\nblockquote:before, blockquote:after,\nq:before, q:after {\n  content: '';\n  content: none; }\n\ntable {\n  border-collapse: collapse;\n  border-spacing: 0; }\n\n.center {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  width: 400px;\n  height: 250px;\n  margin: 50px; }\n\n.clock {\n  display: flex;\n  width: 100%;\n  height: 100%;\n  font-size: 5rem;\n  justify-content: center;\n  align-items: center;\n  flex-direction: column;\n  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);\n  padding: 8px; }\n\n.clock h1 {\n  margin: 8px 0; }\n\n.clock h2 {\n  color: #9D9EA2; }\n\n.todo {\n  display: flex;\n  flex-direction: column;\n  min-width: 300px;\n  height: 500px;\n  overflow-y: auto; }\n\n.todo__form__cover {\n  display: flex;\n  justify-content: center;\n  align-items: center; }\n\n.todo__form {\n  border: none; }\n\n.todo__List {\n  display: flex;\n  margin-top: 10px;\n  flex-direction: column;\n  justify-items: flex-start;\n  align-items: flex-start;\n  max-width: 350px; }\n\n.todo__List__item {\n  width: 100%;\n  margin: 10px 0; }\n\n.todo__form_input {\n  width: 300px;\n  height: 50px;\n  font-size: 18px;\n  border: none;\n  margin-right: 8px;\n  padding: 0 12px;\n  background: linear-gradient(to right, white 50%, #6147FF 50%);\n  color: white;\n  border-radius: 20px;\n  background-size: 200% 100%;\n  background-position: right;\n  overflow: hidden;\n  transition: all 0.4s ease; }\n\n.todo__form_input::placeholder {\n  color: white; }\n\n.todo__form_input:focus {\n  background-color: #6147FF;\n  background-position: left;\n  color: gray;\n  outline: none;\n  border: 2px #6147FF solid;\n  text-decoration: underline; }\n\n.todo__form_input:focus::placeholder {\n  color: gray; }\n\n.chkCover {\n  display: flex;\n  justify-content: center;\n  align-items: center;\n  flex-direction: row;\n  margin: 0;\n  padding: 0; }\n\n.todo__submit {\n  width: 100px;\n  height: 50px;\n  border: none;\n  border-radius: 15px;\n  background-color: #1b8bfe;\n  color: white;\n  font-size: 18px;\n  font-weight: bold;\n  cursor: pointer; }\n\n.mdi-check {\n  color: white; }\n\n.delete {\n  border: none;\n  background: none;\n  cursor: pointer; }\n\n.pretty * {\n  box-sizing: border-box; }\n\n.pretty input:not([type='checkbox']):not([type='radio']) {\n  display: none; }\n\n.pretty {\n  position: relative;\n  display: inline-block;\n  margin-right: 1em;\n  white-space: nowrap;\n  line-height: 1; }\n  .pretty input {\n    position: absolute;\n    left: 0;\n    top: 0;\n    min-width: 1em;\n    width: 100%;\n    height: 100%;\n    z-index: 2;\n    opacity: 0;\n    margin: 0;\n    padding: 0;\n    cursor: pointer; }\n  .pretty .state label {\n    position: initial;\n    display: inline-block;\n    font-weight: normal;\n    margin: 0;\n    text-indent: 1.5em;\n    min-width: calc(1em + 2px); }\n    .pretty .state label:before, .pretty .state label:after {\n      content: '';\n      width: calc(1em + 2px);\n      height: calc(1em + 2px);\n      display: block;\n      box-sizing: border-box;\n      border-radius: 0;\n      border: 1px solid transparent;\n      z-index: 0;\n      position: absolute;\n      left: 0;\n      top: calc((0% - (100% - 1em)) - 8%);\n      background-color: transparent; }\n    .pretty .state label:before {\n      border-color: #bdc3c7; }\n  .pretty .state.p-is-hover, .pretty .state.p-is-indeterminate {\n    display: none; }\n\n@keyframes zoom {\n  0% {\n    opacity: 0;\n    transform: scale(0); } }\n\n@keyframes tada {\n  0% {\n    animation-timing-function: ease-in;\n    opacity: 0;\n    transform: scale(7); }\n  38% {\n    animation-timing-function: ease-out;\n    opacity: 1;\n    transform: scale(1); }\n  55% {\n    animation-timing-function: ease-in;\n    transform: scale(1.5); }\n  72% {\n    animation-timing-function: ease-out;\n    transform: scale(1); }\n  81% {\n    animation-timing-function: ease-in;\n    transform: scale(1.24); }\n  89% {\n    animation-timing-function: ease-out;\n    transform: scale(1); }\n  95% {\n    animation-timing-function: ease-in;\n    transform: scale(1.04); }\n  100% {\n    animation-timing-function: ease-out;\n    transform: scale(1); } }\n\n@keyframes jelly {\n  0% {\n    transform: scale3d(1, 1, 1); }\n  30% {\n    transform: scale3d(0.75, 1.25, 1); }\n  40% {\n    transform: scale3d(1.25, 0.75, 1); }\n  50% {\n    transform: scale3d(0.85, 1.15, 1); }\n  65% {\n    transform: scale3d(1.05, 0.95, 1); }\n  75% {\n    transform: scale3d(0.95, 1.05, 1); }\n  100% {\n    transform: scale3d(1, 1, 1); } }\n\n@keyframes rotate {\n  0% {\n    opacity: 0;\n    transform: translateZ(-200px) rotate(-45deg); }\n  100% {\n    opacity: 1;\n    transform: translateZ(0) rotate(0); } }\n\n@keyframes pulse {\n  0% {\n    box-shadow: 0px 0px 0px 0px #bdc3c7; }\n  100% {\n    box-shadow: 0px 0px 0px 1.5em rgba(189, 195, 199, 0); } }\n\n.pretty.p-default.p-fill .state label:after {\n  transform: scale(1); }\n\n.pretty.p-default .state label:after {\n  transform: scale(0.6); }\n\n.pretty.p-default input:checked ~ .state label:after {\n  background-color: #bdc3c7 !important; }\n\n.pretty.p-default.p-thick .state label:before, .pretty.p-default.p-thick .state label:after {\n  border-width: calc(1em / 7); }\n\n.pretty.p-default.p-thick .state label:after {\n  transform: scale(0.4) !important; }\n\n.pretty.p-icon .state .icon {\n  position: absolute;\n  font-size: 1em;\n  width: calc(1em + 2px);\n  height: calc(1em + 2px);\n  left: 0;\n  z-index: 1;\n  text-align: center;\n  line-height: normal;\n  top: calc((0% - (100% - 1em)) - 8%);\n  border: 1px solid transparent;\n  opacity: 0; }\n\n.pretty.p-icon .state .icon:before {\n  margin: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  display: flex;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n  line-height: 1; }\n\n.pretty.p-icon input:checked ~ .state .icon {\n  opacity: 1; }\n\n.pretty.p-icon input:checked ~ .state label:before {\n  border-color: #5a656b; }\n\n.pretty.p-svg .state .svg {\n  position: absolute;\n  font-size: 1em;\n  width: calc(1em + 2px);\n  height: calc(1em + 2px);\n  left: 0;\n  z-index: 1;\n  text-align: center;\n  line-height: normal;\n  top: calc((0% - (100% - 1em)) - 8%);\n  border: 1px solid transparent;\n  opacity: 0; }\n\n.pretty.p-svg .state svg {\n  margin: 0;\n  width: 100%;\n  height: 100%;\n  text-align: center;\n  display: flex;\n  flex: 1;\n  justify-content: center;\n  align-items: center;\n  line-height: 1; }\n\n.pretty.p-svg input:checked ~ .state .svg {\n  opacity: 1; }\n\n.pretty.p-image .state img {\n  opacity: 0;\n  position: absolute;\n  width: calc(1em + 2px);\n  height: calc(1em + 2px);\n  top: 0;\n  top: calc((0% - (100% - 1em)) - 8%);\n  left: 0;\n  z-index: 0;\n  text-align: center;\n  line-height: normal;\n  transform: scale(0.8); }\n\n.pretty.p-image input:checked ~ .state img {\n  opacity: 1; }\n\n.pretty.p-switch input {\n  min-width: 2em; }\n\n.pretty.p-switch .state {\n  position: relative; }\n  .pretty.p-switch .state:before {\n    content: '';\n    border: 1px solid #bdc3c7;\n    border-radius: 60px;\n    width: 2em;\n    box-sizing: unset;\n    height: calc(1em + 2px);\n    position: absolute;\n    top: 0;\n    top: calc((0% - (100% - 1em)) - 16%);\n    z-index: 0;\n    transition: all 0.5s ease; }\n  .pretty.p-switch .state label {\n    text-indent: 2.5em; }\n    .pretty.p-switch .state label:before, .pretty.p-switch .state label:after {\n      transition: all 0.5s ease;\n      border-radius: 100%;\n      left: 0;\n      border-color: transparent;\n      transform: scale(0.8); }\n    .pretty.p-switch .state label:after {\n      background-color: #bdc3c7 !important; }\n\n.pretty.p-switch input:checked ~ .state:before {\n  border-color: #5a656b; }\n\n.pretty.p-switch input:checked ~ .state label:before {\n  opacity: 0; }\n\n.pretty.p-switch input:checked ~ .state label:after {\n  background-color: #5a656b !important;\n  left: 1em; }\n\n.pretty.p-switch.p-fill input:checked ~ .state:before {\n  border-color: #5a656b;\n  background-color: #5a656b !important; }\n\n.pretty.p-switch.p-fill input:checked ~ .state label:before {\n  opacity: 0; }\n\n.pretty.p-switch.p-fill input:checked ~ .state label:after {\n  background-color: #fff !important;\n  left: 1em; }\n\n.pretty.p-switch.p-slim .state:before {\n  height: 0.1em;\n  background: #bdc3c7 !important;\n  top: calc(50% - 0.1em); }\n\n.pretty.p-switch.p-slim input:checked ~ .state:before {\n  border-color: #5a656b;\n  background-color: #5a656b !important; }\n\n.pretty.p-has-hover input:hover ~ .state:not(.p-is-hover) {\n  display: none; }\n\n.pretty.p-has-hover input:hover ~ .state.p-is-hover {\n  display: block; }\n  .pretty.p-has-hover input:hover ~ .state.p-is-hover .icon {\n    display: block; }\n\n.pretty.p-has-focus input:focus ~ .state label:before {\n  box-shadow: 0px 0px 3px 0px #bdc3c7; }\n\n.pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state:not(.p-is-indeterminate) {\n  display: none; }\n\n.pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state.p-is-indeterminate {\n  display: block; }\n  .pretty.p-has-indeterminate input[type='checkbox']:indeterminate ~ .state.p-is-indeterminate .icon {\n    display: block;\n    opacity: 1; }\n\n.pretty.p-toggle .state.p-on {\n  opacity: 0;\n  display: none; }\n\n.pretty.p-toggle .state.p-off,\n.pretty.p-toggle .state .icon,\n.pretty.p-toggle .state .svg,\n.pretty.p-toggle .state img {\n  opacity: 1;\n  display: inherit; }\n\n.pretty.p-toggle .state.p-off .icon {\n  color: #bdc3c7; }\n\n.pretty.p-toggle input:checked ~ .state.p-on {\n  opacity: 1;\n  display: inherit; }\n\n.pretty.p-toggle input:checked ~ .state.p-off {\n  opacity: 0;\n  display: none; }\n\n.pretty.p-plain input:checked ~ .state label:before,\n.pretty.p-plain.p-toggle .state label:before {\n  content: none; }\n\n.pretty.p-plain.p-plain .icon {\n  transform: scale(1.1); }\n\n.pretty.p-round .state label:before, .pretty.p-round .state label:after {\n  border-radius: 100%; }\n\n.pretty.p-round.p-icon .state .icon {\n  border-radius: 100%;\n  overflow: hidden; }\n  .pretty.p-round.p-icon .state .icon:before {\n    transform: scale(0.8); }\n\n.pretty.p-curve .state label:before, .pretty.p-curve .state label:after {\n  border-radius: 20%; }\n\n.pretty.p-smooth label:before,\n.pretty.p-smooth label:after,\n.pretty.p-smooth .icon,\n.pretty.p-smooth .svg {\n  transition: all 0.5s ease; }\n\n.pretty.p-smooth input:checked + .state label:after {\n  transition: all 0.3s ease; }\n\n.pretty.p-smooth input:checked + .state .icon,\n.pretty.p-smooth input:checked + .state .svg,\n.pretty.p-smooth input:checked + .state img {\n  animation: zoom 0.2s ease; }\n\n.pretty.p-smooth.p-default input:checked + .state label:after {\n  animation: zoom 0.2s ease; }\n\n.pretty.p-smooth.p-plain input:checked + .state label:before {\n  content: '';\n  transform: scale(0);\n  transition: all 0.5s ease; }\n\n.pretty.p-tada:not(.p-default) input:checked + .state .icon,\n.pretty.p-tada:not(.p-default) input:checked + .state .svg,\n.pretty.p-tada:not(.p-default) input:checked + .state img,\n.pretty.p-tada:not(.p-default) input:checked + .state label:before,\n.pretty.p-tada:not(.p-default) input:checked + .state label:after {\n  animation: tada 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94) 1 alternate;\n  opacity: 1; }\n\n.pretty.p-jelly:not(.p-default) input:checked + .state .icon,\n.pretty.p-jelly:not(.p-default) input:checked + .state .svg,\n.pretty.p-jelly:not(.p-default) input:checked + .state img,\n.pretty.p-jelly:not(.p-default) input:checked + .state label:before,\n.pretty.p-jelly:not(.p-default) input:checked + .state label:after {\n  animation: jelly 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n  opacity: 1; }\n\n.pretty.p-jelly:not(.p-default) input:checked + .state label:before {\n  border-color: transparent; }\n\n.pretty.p-rotate:not(.p-default) input:checked ~ .state .icon,\n.pretty.p-rotate:not(.p-default) input:checked ~ .state .svg,\n.pretty.p-rotate:not(.p-default) input:checked ~ .state img,\n.pretty.p-rotate:not(.p-default) input:checked ~ .state label:before,\n.pretty.p-rotate:not(.p-default) input:checked ~ .state label:after {\n  animation: rotate 0.7s cubic-bezier(0.25, 0.46, 0.45, 0.94);\n  opacity: 1; }\n\n.pretty.p-rotate:not(.p-default) input:checked ~ .state label:before {\n  border-color: transparent; }\n\n.pretty.p-pulse:not(.p-switch) input:checked ~ .state label:before {\n  animation: pulse 1s; }\n\n.pretty input[disabled] {\n  cursor: not-allowed;\n  display: none; }\n  .pretty input[disabled] ~ * {\n    opacity: .5; }\n\n.pretty.p-locked input {\n  display: none;\n  cursor: not-allowed; }\n\n.pretty input:checked ~ .state.p-primary label:after,\n.pretty.p-toggle .state.p-primary label:after {\n  background-color: #428bca !important; }\n\n.pretty input:checked ~ .state.p-primary .icon,\n.pretty input:checked ~ .state.p-primary .svg,\n.pretty.p-toggle .state.p-primary .icon,\n.pretty.p-toggle .state.p-primary .svg {\n  color: #fff;\n  stroke: #fff; }\n\n.pretty input:checked ~ .state.p-primary-o label:before,\n.pretty.p-toggle .state.p-primary-o label:before {\n  border-color: #428bca; }\n\n.pretty input:checked ~ .state.p-primary-o label:after,\n.pretty.p-toggle .state.p-primary-o label:after {\n  background-color: transparent; }\n\n.pretty input:checked ~ .state.p-primary-o .icon,\n.pretty input:checked ~ .state.p-primary-o .svg,\n.pretty input:checked ~ .state.p-primary-o svg,\n.pretty.p-toggle .state.p-primary-o .icon,\n.pretty.p-toggle .state.p-primary-o .svg,\n.pretty.p-toggle .state.p-primary-o svg {\n  color: #428bca;\n  stroke: #428bca; }\n\n.pretty.p-default:not(.p-fill) input:checked ~ .state.p-primary-o label:after {\n  background-color: #428bca !important; }\n\n.pretty.p-switch input:checked ~ .state.p-primary:before {\n  border-color: #428bca; }\n\n.pretty.p-switch.p-fill input:checked ~ .state.p-primary:before {\n  background-color: #428bca !important; }\n\n.pretty.p-switch.p-slim input:checked ~ .state.p-primary:before {\n  border-color: #245682;\n  background-color: #245682 !important; }\n\n.pretty input:checked ~ .state.p-info label:after,\n.pretty.p-toggle .state.p-info label:after {\n  background-color: #5bc0de !important; }\n\n.pretty input:checked ~ .state.p-info .icon,\n.pretty input:checked ~ .state.p-info .svg,\n.pretty.p-toggle .state.p-info .icon,\n.pretty.p-toggle .state.p-info .svg {\n  color: #fff;\n  stroke: #fff; }\n\n.pretty input:checked ~ .state.p-info-o label:before,\n.pretty.p-toggle .state.p-info-o label:before {\n  border-color: #5bc0de; }\n\n.pretty input:checked ~ .state.p-info-o label:after,\n.pretty.p-toggle .state.p-info-o label:after {\n  background-color: transparent; }\n\n.pretty input:checked ~ .state.p-info-o .icon,\n.pretty input:checked ~ .state.p-info-o .svg,\n.pretty input:checked ~ .state.p-info-o svg,\n.pretty.p-toggle .state.p-info-o .icon,\n.pretty.p-toggle .state.p-info-o .svg,\n.pretty.p-toggle .state.p-info-o svg {\n  color: #5bc0de;\n  stroke: #5bc0de; }\n\n.pretty.p-default:not(.p-fill) input:checked ~ .state.p-info-o label:after {\n  background-color: #5bc0de !important; }\n\n.pretty.p-switch input:checked ~ .state.p-info:before {\n  border-color: #5bc0de; }\n\n.pretty.p-switch.p-fill input:checked ~ .state.p-info:before {\n  background-color: #5bc0de !important; }\n\n.pretty.p-switch.p-slim input:checked ~ .state.p-info:before {\n  border-color: #2390b0;\n  background-color: #2390b0 !important; }\n\n.pretty input:checked ~ .state.p-success label:after,\n.pretty.p-toggle .state.p-success label:after {\n  background-color: #5cb85c !important; }\n\n.pretty input:checked ~ .state.p-success .icon,\n.pretty input:checked ~ .state.p-success .svg,\n.pretty.p-toggle .state.p-success .icon,\n.pretty.p-toggle .state.p-success .svg {\n  color: #fff;\n  stroke: #fff; }\n\n.pretty input:checked ~ .state.p-success-o label:before,\n.pretty.p-toggle .state.p-success-o label:before {\n  border-color: #5cb85c; }\n\n.pretty input:checked ~ .state.p-success-o label:after,\n.pretty.p-toggle .state.p-success-o label:after {\n  background-color: transparent; }\n\n.pretty input:checked ~ .state.p-success-o .icon,\n.pretty input:checked ~ .state.p-success-o .svg,\n.pretty input:checked ~ .state.p-success-o svg,\n.pretty.p-toggle .state.p-success-o .icon,\n.pretty.p-toggle .state.p-success-o .svg,\n.pretty.p-toggle .state.p-success-o svg {\n  color: #5cb85c;\n  stroke: #5cb85c; }\n\n.pretty.p-default:not(.p-fill) input:checked ~ .state.p-success-o label:after {\n  background-color: #5cb85c !important; }\n\n.pretty.p-switch input:checked ~ .state.p-success:before {\n  border-color: #5cb85c; }\n\n.pretty.p-switch.p-fill input:checked ~ .state.p-success:before {\n  background-color: #5cb85c !important; }\n\n.pretty.p-switch.p-slim input:checked ~ .state.p-success:before {\n  border-color: #357935;\n  background-color: #357935 !important; }\n\n.pretty input:checked ~ .state.p-warning label:after,\n.pretty.p-toggle .state.p-warning label:after {\n  background-color: #f0ad4e !important; }\n\n.pretty input:checked ~ .state.p-warning .icon,\n.pretty input:checked ~ .state.p-warning .svg,\n.pretty.p-toggle .state.p-warning .icon,\n.pretty.p-toggle .state.p-warning .svg {\n  color: #fff;\n  stroke: #fff; }\n\n.pretty input:checked ~ .state.p-warning-o label:before,\n.pretty.p-toggle .state.p-warning-o label:before {\n  border-color: #f0ad4e; }\n\n.pretty input:checked ~ .state.p-warning-o label:after,\n.pretty.p-toggle .state.p-warning-o label:after {\n  background-color: transparent; }\n\n.pretty input:checked ~ .state.p-warning-o .icon,\n.pretty input:checked ~ .state.p-warning-o .svg,\n.pretty input:checked ~ .state.p-warning-o svg,\n.pretty.p-toggle .state.p-warning-o .icon,\n.pretty.p-toggle .state.p-warning-o .svg,\n.pretty.p-toggle .state.p-warning-o svg {\n  color: #f0ad4e;\n  stroke: #f0ad4e; }\n\n.pretty.p-default:not(.p-fill) input:checked ~ .state.p-warning-o label:after {\n  background-color: #f0ad4e !important; }\n\n.pretty.p-switch input:checked ~ .state.p-warning:before {\n  border-color: #f0ad4e; }\n\n.pretty.p-switch.p-fill input:checked ~ .state.p-warning:before {\n  background-color: #f0ad4e !important; }\n\n.pretty.p-switch.p-slim input:checked ~ .state.p-warning:before {\n  border-color: #c77c11;\n  background-color: #c77c11 !important; }\n\n.pretty input:checked ~ .state.p-danger label:after,\n.pretty.p-toggle .state.p-danger label:after {\n  background-color: #d9534f !important; }\n\n.pretty input:checked ~ .state.p-danger .icon,\n.pretty input:checked ~ .state.p-danger .svg,\n.pretty.p-toggle .state.p-danger .icon,\n.pretty.p-toggle .state.p-danger .svg {\n  color: #fff;\n  stroke: #fff; }\n\n.pretty input:checked ~ .state.p-danger-o label:before,\n.pretty.p-toggle .state.p-danger-o label:before {\n  border-color: #d9534f; }\n\n.pretty input:checked ~ .state.p-danger-o label:after,\n.pretty.p-toggle .state.p-danger-o label:after {\n  background-color: transparent; }\n\n.pretty input:checked ~ .state.p-danger-o .icon,\n.pretty input:checked ~ .state.p-danger-o .svg,\n.pretty input:checked ~ .state.p-danger-o svg,\n.pretty.p-toggle .state.p-danger-o .icon,\n.pretty.p-toggle .state.p-danger-o .svg,\n.pretty.p-toggle .state.p-danger-o svg {\n  color: #d9534f;\n  stroke: #d9534f; }\n\n.pretty.p-default:not(.p-fill) input:checked ~ .state.p-danger-o label:after {\n  background-color: #d9534f !important; }\n\n.pretty.p-switch input:checked ~ .state.p-danger:before {\n  border-color: #d9534f; }\n\n.pretty.p-switch.p-fill input:checked ~ .state.p-danger:before {\n  background-color: #d9534f !important; }\n\n.pretty.p-switch.p-slim input:checked ~ .state.p-danger:before {\n  border-color: #a02622;\n  background-color: #a02622 !important; }\n\n.pretty.p-bigger label:before,\n.pretty.p-bigger label:after,\n.pretty.p-bigger .icon,\n.pretty.p-bigger .svg,\n.pretty.p-bigger .img {\n  font-size: 1.2em !important;\n  top: calc((0% - (100% - 1em)) - 35%) !important; }\n\n.pretty.p-bigger label {\n  text-indent: 1.7em; }\n\n@media print {\n  .pretty .state:before,\n  .pretty .state label:before,\n  .pretty .state label:after,\n  .pretty .state .icon {\n    color-adjust: exact;\n    /* stylelint-disable */\n    -webkit-print-color-adjust: exact;\n    print-color-adjust: exact; } }\n\n.root {\n  display: flex;\n  width: 100%;\n  height: 100vh;\n  flex-direction: column;\n  justify-content: center;\n  align-items: center;\n  position: static; }\n\n.bgImg {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  z-index: -1;\n  animation: fadeIn 0.5s linear; }\n", ""]);
 // Exports
 module.exports = exports;
 
@@ -520,45 +520,6 @@ module.exports = exported;
 
 /***/ }),
 
-/***/ "./public/assets/img/bg1.jpg":
-/*!***********************************!*\
-  !*** ./public/assets/img/bg1.jpg ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "3516dcae2d4183d07c23f8e0c97d6615.jpg");
-
-/***/ }),
-
-/***/ "./public/assets/img/bg2.jpg":
-/*!***********************************!*\
-  !*** ./public/assets/img/bg2.jpg ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "52d1314dc5decbecdc4c459b6a796e40.jpg");
-
-/***/ }),
-
-/***/ "./public/assets/img/bg3.jpg":
-/*!***********************************!*\
-  !*** ./public/assets/img/bg3.jpg ***!
-  \***********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony default export */ __webpack_exports__["default"] = (__webpack_require__.p + "1c55030d30e6790660ff7d060a1f01f5.jpg");
-
-/***/ }),
-
 /***/ "./src/ts/app.ts":
 /*!***********************!*\
   !*** ./src/ts/app.ts ***!
@@ -571,20 +532,14 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _controller_controller__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./controller/controller */ "./src/ts/controller/controller.ts");
 /* harmony import */ var _model_todoModel__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./model/todoModel */ "./src/ts/model/todoModel.ts");
 /* harmony import */ var _view_todoView__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./view/todoView */ "./src/ts/view/todoView.ts");
-/* harmony import */ var _model_bgModel__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./model/bgModel */ "./src/ts/model/bgModel.ts");
-/* harmony import */ var _view_bgView__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! ./view/bgView */ "./src/ts/view/bgView.ts");
-/* harmony import */ var _controller_bgController__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! ./controller/bgController */ "./src/ts/controller/bgController.ts");
-/* harmony import */ var _clock__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! ./clock */ "./src/ts/clock.ts");
-
-
-
+/* harmony import */ var _clock__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! ./clock */ "./src/ts/clock.ts");
 
 
 
 
 var todoApp = new _controller_controller__WEBPACK_IMPORTED_MODULE_0__["default"](new _view_todoView__WEBPACK_IMPORTED_MODULE_2__["default"](), new _model_todoModel__WEBPACK_IMPORTED_MODULE_1__["default"]());
-var backgroundApp = new _controller_bgController__WEBPACK_IMPORTED_MODULE_5__["default"](new _view_bgView__WEBPACK_IMPORTED_MODULE_4__["default"](), new _model_bgModel__WEBPACK_IMPORTED_MODULE_3__["default"]());
-var clock = new _clock__WEBPACK_IMPORTED_MODULE_6__["default"]();
+// const backgroundApp = new BgController(new BgView(), new BgModel());
+var clock = new _clock__WEBPACK_IMPORTED_MODULE_3__["default"]();
 clock.init();
 
 
@@ -603,50 +558,42 @@ var Clock = /** @class */ (function () {
     function Clock() {
         var _this = this;
         this.clockContainer = document.querySelector(".clock");
-        this.clockTitle = this.clockContainer.querySelector("h1");
-        this.getTime = function () {
+        this.dayTitle = this.clockContainer.querySelector("h1");
+        this.timeTitle = this.clockContainer.querySelector("h2");
+        this.yearTitle = this.clockContainer.querySelector(".year");
+        this.initTime = function () {
             var date = new Date();
+            var month = date.getMonth();
+            var day = date.getDay();
             var hour = date.getHours();
             var minute = date.getMinutes();
-            var second = date.getSeconds();
-            _this.clockTitle.innerText = (hour >= 10 ? "" + hour : "0" + hour) + ":" + (minute >= 10 ? "" + minute : "0" + minute) + ":" + (second >= 10 ? "" + second : "0" + second);
+            _this.dayTitle.innerHTML = _this.monthNames[month - 1] + " " + (day >= 10 ? "" + day : "0" + day) + " ";
+            _this.timeTitle.innerText = (hour >= 10 ? "" + hour : "0" + hour) + ":" + (minute >= 10 ? "" + minute : "0" + minute);
         };
         this.init = function () {
-            _this.getTime();
+            _this.initTime();
             setInterval(function () {
-                _this.getTime();
+                _this.initTime();
             }, 1000);
         };
+        this.monthNames = [
+            "January",
+            "February",
+            "March",
+            "April",
+            "May",
+            "June",
+            "July",
+            "August",
+            "September",
+            "October",
+            "November",
+            "December"
+        ];
     }
     return Clock;
 }());
 /* harmony default export */ __webpack_exports__["default"] = (Clock);
-
-
-/***/ }),
-
-/***/ "./src/ts/controller/bgController.ts":
-/*!*******************************************!*\
-  !*** ./src/ts/controller/bgController.ts ***!
-  \*******************************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var BackgroundController = /** @class */ (function () {
-    function BackgroundController(view, model) {
-        var _this = this;
-        this.onBackgroundChanged = function () {
-            _this.backgroundView.paintImg(_this.backgroundModel.createRandomBG());
-        };
-        this.backgroundView = view;
-        this.backgroundModel = model;
-        this.onBackgroundChanged();
-    }
-    return BackgroundController;
-}());
-/* harmony default export */ __webpack_exports__["default"] = (BackgroundController);
 
 
 /***/ }),
@@ -672,49 +619,20 @@ var Controller = /** @class */ (function () {
         this.handleRemoveTodo = function (id) {
             _this.todoModel.deleteToDo(id);
         };
+        this.handleCheckEvent = function (id, checked) {
+            _this.todoModel.checkTodo(id, checked);
+        };
         this.view = contactView;
         this.todoModel = contactModel;
         this.todoModel.bindTodoListChanged(this.onTodoListChanged);
         this.view.bindAddTodo(this.handleAddTodo);
         this.view.bindRemoveTodo(this.handleRemoveTodo);
+        this.view.bindCheckTodo(this.handleCheckEvent);
         this.onTodoListChanged(this.todoModel.todoArray);
     }
     return Controller;
 }());
 /* harmony default export */ __webpack_exports__["default"] = (Controller);
-
-
-/***/ }),
-
-/***/ "./src/ts/model/bgModel.ts":
-/*!*********************************!*\
-  !*** ./src/ts/model/bgModel.ts ***!
-  \*********************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-var BackgroundModel = /** @class */ (function () {
-    function BackgroundModel() {
-        var _this = this;
-        this.IMG_NUMBER = 3;
-        this.createRandomBG = function () {
-            var num = Math.floor(Math.random() * _this.IMG_NUMBER);
-            console.log(num);
-            return num;
-        };
-    }
-    Object.defineProperty(BackgroundModel.prototype, "imgNumber", {
-        get: function () {
-            return this.IMG_NUMBER;
-        },
-        enumerable: true,
-        configurable: true
-    });
-    return BackgroundModel;
-}());
-/* harmony default export */ __webpack_exports__["default"] = (BackgroundModel);
 
 
 /***/ }),
@@ -728,6 +646,17 @@ var BackgroundModel = /** @class */ (function () {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
+var __assign = (undefined && undefined.__assign) || function () {
+    __assign = Object.assign || function(t) {
+        for (var s, i = 1, n = arguments.length; i < n; i++) {
+            s = arguments[i];
+            for (var p in s) if (Object.prototype.hasOwnProperty.call(s, p))
+                t[p] = s[p];
+        }
+        return t;
+    };
+    return __assign.apply(this, arguments);
+};
 var TodoModel = /** @class */ (function () {
     function TodoModel() {
         this.TODO_STORAGE = "ToDo";
@@ -753,7 +682,8 @@ var TodoModel = /** @class */ (function () {
             id: this.todoArray.length > 0
                 ? this.todoArray[this.todoArray.length - 1].id + 1
                 : 1,
-            text: saveTxt
+            text: saveTxt,
+            checked: false
         };
         this.todoArray.push(todo);
         this._commit(this.todoArray);
@@ -770,47 +700,20 @@ var TodoModel = /** @class */ (function () {
         console.log("====================================");
         this._commit(this.todoArray);
     };
+    TodoModel.prototype.checkTodo = function (id, checked) {
+        var map = this.todoArray.map(function (item) {
+            if (item.id === id) {
+                return __assign(__assign({}, item), { checked: checked });
+            }
+            else {
+                return item;
+            }
+        });
+        localStorage.setItem(this.TODO_STORAGE, JSON.stringify(map));
+    };
     return TodoModel;
 }());
 /* harmony default export */ __webpack_exports__["default"] = (TodoModel);
-
-
-/***/ }),
-
-/***/ "./src/ts/view/bgView.ts":
-/*!*******************************!*\
-  !*** ./src/ts/view/bgView.ts ***!
-  \*******************************/
-/*! exports provided: default */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var _public_assets_img_bg1_jpg__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ../../../public/assets/img/bg1.jpg */ "./public/assets/img/bg1.jpg");
-/* harmony import */ var _public_assets_img_bg2_jpg__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../../../public/assets/img/bg2.jpg */ "./public/assets/img/bg2.jpg");
-/* harmony import */ var _public_assets_img_bg3_jpg__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../../public/assets/img/bg3.jpg */ "./public/assets/img/bg3.jpg");
-
-
-
-// const bg1 = require("../../../public/assets/img/bg1.jpg");
-// const bg2 = require("../../../public/assets/img/bg2.jpg");
-// const bg3 = require("../../../public/assets/img/bg3.jpg");
-var BackgroundView = /** @class */ (function () {
-    function BackgroundView() {
-        this.body = document.querySelector("body");
-        this.imgArr = [_public_assets_img_bg1_jpg__WEBPACK_IMPORTED_MODULE_0__["default"], _public_assets_img_bg2_jpg__WEBPACK_IMPORTED_MODULE_1__["default"], _public_assets_img_bg3_jpg__WEBPACK_IMPORTED_MODULE_2__["default"]];
-    }
-    BackgroundView.prototype.paintImg = function (imgNumber) {
-        var newImg = new Image();
-        newImg.src = this.imgArr[imgNumber];
-        // newImg.src = `../../assets/img/bg${imgNumber + 1}.jpg`;
-        newImg.classList.add("bgImg");
-        console.log(newImg.src);
-        this.body.prepend(newImg);
-    };
-    return BackgroundView;
-}());
-/* harmony default export */ __webpack_exports__["default"] = (BackgroundView);
 
 
 /***/ }),
@@ -833,18 +736,38 @@ var View = /** @class */ (function () {
             }
             todos.forEach(function (todo) {
                 _this.li = document.createElement("li");
+                _this.li.classList.add("todo__List__item");
                 _this.deleteBtn = document.createElement("button");
                 _this.span = document.createElement("span");
+                _this.boxCover = document.createElement("div");
                 _this.chkBox = document.createElement("input");
+                _this.labelCover = document.createElement("div");
+                _this.label = document.createElement("label");
+                _this.label.innerHTML = todo.text;
+                _this.chkIcon = document.createElement("i");
+                _this.chkIcon.classList.add("icon", "mdi", "mdi-check");
+                _this.boxCover.classList.add("chkCover", "pretty", "p-icon", "p-round", "p-jelly");
                 _this.icon = document.createElement("i");
-                _this.icon.className += "far fa-trash-alt delete";
+                _this.icon.className += "fas fa-trash fa-lg delete";
                 _this.deleteBtn.appendChild(_this.icon);
                 _this.deleteBtn.className += "delete";
                 _this.chkBox.type = "checkbox";
                 _this.chkBox.className += "check";
-                _this.span.innerText = todo.text;
-                _this.li.appendChild(_this.span);
-                _this.li.appendChild(_this.chkBox);
+                _this.chkBox.checked = todo.checked;
+                _this.chkBox.addEventListener("click", function (e) {
+                    var _a;
+                    var id = Number(((_a = e.target.parentNode) === null || _a === void 0 ? void 0 : _a.parentNode).id);
+                    var check = e.target.checked;
+                    _this.checkEvent(id, check);
+                });
+                _this.labelCover.classList.add("state", "p-primary");
+                _this.labelCover.appendChild(_this.chkIcon);
+                _this.labelCover.appendChild(_this.label);
+                _this.boxCover.appendChild(_this.chkBox);
+                _this.boxCover.appendChild(_this.labelCover);
+                // this.span.innerText = todo.text;
+                // this.li.appendChild(this.span);
+                _this.li.appendChild(_this.boxCover);
                 _this.li.appendChild(_this.deleteBtn);
                 _this.li.id = String(todo.id);
                 _this.li.addEventListener("click", function (e) {
@@ -883,9 +806,21 @@ var View = /** @class */ (function () {
                 _this.todo__form_input.value = "";
             }
         });
+        this.todo__form_input.addEventListener("keydown", function (e) {
+            if (e.keyCode === 13) {
+                e.preventDefault();
+                if (_this._todoText) {
+                    handler(_this._todoText);
+                    _this.todo__form_input.value = "";
+                }
+            }
+        });
     };
     View.prototype.bindRemoveTodo = function (handler) {
         this.removeEvent = handler;
+    };
+    View.prototype.bindCheckTodo = function (handler) {
+        this.checkEvent = handler;
     };
     return View;
 }());
