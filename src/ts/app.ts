@@ -7,6 +7,6 @@ import BgController from "./controller/bgController";
 import Clock from "./clock";
 
 const todoApp = new Controller(new TodoView(), new TodoModel());
-const backgroundApp = new BgController(new BgView(), new BgModel());
+// const backgroundApp = new BgController(new BgView(), new BgModel());
 const clock = new Clock();
 clock.init();

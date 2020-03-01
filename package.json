@@ -9,10 +9,10 @@
   "homepage": "https://kth9192.github.io/type-momentum/",
   "private": true,
   "dependencies": {
-    "@types/node": "^13.7.0"
+    "@types/node": "^13.7.0",
+    "pretty-checkbox": "^3.0.3"
   },
   "scripts": {
-    "start": "node ./src/server/server.js",
     "build": "webpack --config ./webpack.config.js",
     "deploy": "yarn build && gh-pages -d dist"
   },

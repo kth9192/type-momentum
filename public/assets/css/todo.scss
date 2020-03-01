@@ -1,5 +1,97 @@
-.todo__form_cover {
+.todo {
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    height: 500px;
+    overflow-y: auto;
+}
+
+.todo__form__cover {
     display: flex;
     justify-content: center;
     align-items: center;
+
+}
+
+.todo__form {
+    border: none;
+}
+
+.todo__List {
+    display: flex;
+    margin-top: 10px;
+    flex-direction: column;
+    justify-items: flex-start;
+    align-items: flex-start;
+    max-width: 350px;
+}
+
+.todo__List__item {
+    width: 100%;
+    margin: 10px 0;
+}
+
+.todo__form_input {
+    width: 300px;
+    height: 50px;
+    font-size: 18px;
+    border: none;
+    margin-right: 8px;
+    padding: 0 12px;
+    background: linear-gradient(to right, white 50%, #6147FF 50%);
+    color: white;
+    border-radius: 20px;
+
+    background-size: 200% 100%;
+    background-position: right;
+    overflow: hidden;
+    transition: all 0.4s ease;
+}
+
+.todo__form_input::placeholder {
+    color: white;
+}
+
+.todo__form_input:focus {
+    background-color: #6147FF;
+    background-position: left;
+    color: gray;
+    outline: none;
+    border: 2px #6147FF solid;
+    text-decoration: underline;
+}
+
+.todo__form_input:focus::placeholder {
+    color: gray;
+}
+
+.chkCover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
+
+.todo__submit {
+    width: 100px;
+    height: 50px;
+    border: none;
+    border-radius: 15px;
+    background-color: #1b8bfe;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.mdi-check {
+    color: white;
+}
+
+.delete {
+    border: none;
+    background: none;
+    cursor: pointer;
 }

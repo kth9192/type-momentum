@@ -11,6 +11,11 @@
       integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.materialdesignicons.com/4.9.95/css/materialdesignicons.min.css
+"
+    />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
     <title>모멘텀</title>
   </head>
@@ -18,20 +23,25 @@
     <div class="root">
       <div class="center">
         <div class="clock">
-          <h1>00:00:00</h1>
-          <hr class="intro-divider" />
-        </div>
+          <h1>-:-:-</h1>
+          <h2>00:00:00</h2>
 
-        <div class="todo__form_cover">
-          <form class="todo__Form">
+          <!-- <hr class="intro-divider" /> -->
+        </div>
+      </div>
+
+      <div class="todo">
+        <div class="todo__form__cover">
+          <form class="todo__form">
             <input
               type="text"
               class="todo__form_input fas fa-tasks"
               placeholder="&#xf0ae; Write a to do"
             />
           </form>
-          <button class="todo__submit delete">추가</button>
+          <button class="todo__submit ">추가</button>
         </div>
+
         <ul class="todo__List"></ul>
       </div>
 

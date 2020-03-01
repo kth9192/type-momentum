@@ -36,7 +36,8 @@ class TodoModel {
         this.todoArray.length > 0
           ? this.todoArray[this.todoArray.length - 1].id + 1
           : 1,
-      text: saveTxt
+      text: saveTxt,
+      checked: false
     };
     this.todoArray.push(todo);
 
@@ -55,6 +56,18 @@ class TodoModel {
     console.log("삭제", this.todoArray, id);
     console.log("====================================");
     this._commit(this.todoArray);
+  }
+
+  checkTodo(id: number, checked: boolean) {
+    const map = this.todoArray.map(item => {
+      if (item.id === id) {
+        return { ...item, checked: checked };
+      } else {
+        return item;
+      }
+    });
+
+    localStorage.setItem(this.TODO_STORAGE, JSON.stringify(map));
   }
 }
 

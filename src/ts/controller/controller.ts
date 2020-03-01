@@ -13,6 +13,7 @@ class Controller {
     this.todoModel.bindTodoListChanged(this.onTodoListChanged);
     this.view.bindAddTodo(this.handleAddTodo);
     this.view.bindRemoveTodo(this.handleRemoveTodo);
+    this.view.bindCheckTodo(this.handleCheckEvent);
 
     this.onTodoListChanged(this.todoModel.todoArray);
   }
@@ -27,6 +28,10 @@ class Controller {
 
   handleRemoveTodo = (id: number) => {
     this.todoModel.deleteToDo(id);
+  };
+
+  handleCheckEvent = (id: number, checked: boolean) => {
+    this.todoModel.checkTodo(id, checked);
   };
 }
 
