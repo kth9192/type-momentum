@@ -76,6 +76,10 @@ class View {
         );
         let check = (<HTMLInputElement>e.target).checked;
 
+        check
+          ? (this.label.style.textDecoration = "line-through")
+          : (this.label.style.textDecoration = "none");
+
         this.checkEvent(id, check);
       });
 
