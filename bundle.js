@@ -564,10 +564,10 @@ var Clock = /** @class */ (function () {
         this.initTime = function () {
             var date = new Date();
             var month = date.getMonth();
-            var day = date.getDay();
+            var day = date.getDay() + 1;
             var hour = date.getHours();
             var minute = date.getMinutes();
-            _this.dayTitle.innerHTML = _this.monthNames[month - 1] + " " + (day >= 10 ? "" + day : "0" + day) + " ";
+            _this.dayTitle.innerHTML = _this.monthNames[month] + " " + (day >= 10 ? "" + day : "0" + day) + " ";
             _this.timeTitle.innerText = (hour >= 10 ? "" + hour : "0" + hour) + ":" + (minute >= 10 ? "" + minute : "0" + minute);
         };
         this.init = function () {
